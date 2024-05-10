@@ -7,7 +7,8 @@
 .box {
     flex: 1;
     height: 100px;
-    margin: 10px;
+    width: 200px;
+    margin: 50px;
     background-color: aquamarine;
 }
 
@@ -22,8 +23,8 @@
     height: 25px;
     background-color: palevioletred;
     border-radius: 50%;
-    top: 10px;
-    left: 25px;
+    top: 75px;
+    left: 75px;
     position: absolute;
 }
 
@@ -32,8 +33,8 @@
     height: 25px;
     background-color: palevioletred;
     border-radius: 50%;
-    top: 20px;
-    right: 750px;
+    top: 100px;
+    right: 1100px;
     position: absolute;
 }
 
@@ -42,8 +43,8 @@
     height: 25px;
     background-color: palevioletred;
     border-radius: 50%;
-    top: 75px;
-    left: 25px;
+    top: 150px;
+    left: 75px;
     position: absolute;
 }
 
@@ -56,7 +57,7 @@
     height: 75px;
     background-color: palevioletred;
     border-radius: 50%;
-    top: 75px;
+    top: 125px;
     left: 450px;
     position: absolute;
 }
@@ -66,10 +67,12 @@
     height: 75px;
     background-color: yellow;
     border-radius: 50%;
-    top: 40px;
-    left: 250px;
+    top: 75px;
+    left: 350px;
     position: absolute;
 }
+
+/* Boxes*/
 
 .box-container-bottom {
     display: flex;
@@ -103,6 +106,8 @@
     z-index: 0;
 }
 
+/* Triangles*/
+
 .triangle-one {
     position: absolute;
     bottom: 200px;
@@ -125,6 +130,19 @@
     border-bottom: 150px solid #00FF00;
  }
 
+
+/*Contact Box*/
+
+.contact-form {
+    width: 10px;
+    border: 1x solid black;
+    border-radius: 10px;
+    border-color: black;
+    top: 0;
+    right: 200px;
+    position: absolute;
+}
+    
  @media (max-width: 600px) {
     body {
         margin: 0 auto;
