@@ -125,3 +125,13 @@
     border-bottom: 150px solid #00FF00;
  }
 
+ @media (max-width: 600px) {
+    body {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .box {
+        width: auto;
+        margin: auto;
+    }
+ }
